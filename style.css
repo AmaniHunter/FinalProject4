@@ -1,0 +1,99 @@
+html, body {
+    margin:0px;
+    height:100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif; /* Similar to Spotify's Circular font */
+    color: #FFFFFF;
+    background-color: #121212; /* Spotify's dark background color */
+}
+
+.left, .right {
+    height: 100%;
+}
+
+.left {
+    width: 30%;
+    float: left;
+}
+
+.right {
+    margin-left: 50%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1DB954; /* Spotify green for links */
+}
+
+hr {
+    width: 169.19px;
+    border-top: 2px solid #1DB954; /* Spotify green for horizontal line */
+    border-radius: 7px 7px 7px 7px;
+}
+
+button, .button, #googleSignup, .signupbutton {
+    background-color: #1DB954; /* Spotify green for buttons */
+    border-color: transparent;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #FFFFFF; /* White text */
+    cursor: pointer;
+}
+
+button:hover, .button:hover, #googleSignup:hover, .signupbutton:hover {
+    background-color: #1A8746; /* Darker shade of Spotify green for button hover */
+}
+
+#googleLogo {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+#welcome, #welcomeSignup {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#sub-welcome, #sub-welcomeSignup {
+    font-size: 15px;
+    padding-bottom: 48px;
+}
+
+.formfields, .formfieldsSignup {
+    border: 2px solid #1DB954; /* Spotify green for input fields */
+    border-radius: 15px;
+    width: 500px;
+    height: 60px;
+    font-size: 20px;
+    padding-left: 30px;
+    background-color: #282828; /* Darker background for input fields */
+    color: #FFFFFF; /* White text for input fields */
+}
+
+#email, #password, #firstname, #lastname, #username, #emailSignup, #passwordSignup, #confirmPassword {
+    margin-bottom: 18px;
+}
+
+#forgotPassword {
+    margin-left: 50%;
+    color: #1DB954; /* Spotify green for 'Forgot Password' text */
+}
+
+#orSpanp, #orSpan, #orSpanp-signup, #orSpan-signup {
+    background: #121212; /* Spotify's dark background color */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25); /* Lighter line for contrast */
+    padding: 0 80px;
+}
+
+#signupSpan, #signupP {
+    color: #1DB954; /* Spotify green for signup text */
+    font-weight: 600;
+}
+
+/* Remaining styles follow the same pattern of color and font adjustments */
+
+/* Media Queries and Responsive Design elements as required */

@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: Arial, sans-serif; /* Similar to Spotify's Circular font */
+    color: #FFFFFF;
+    background-color: #121212; /* Spotify's dark background color */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navigation-container, #dashboardnavigation-container {
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    background-color: #181818; /* Darker shade for navigation */
+}
+
+.navigation-bar, .dashboardnavigation-bar {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.navigation-bar img, .dashboardnavigation-bar img {
+    float: left;
+    padding-top: 20px;
+}
+
+#logoType {
+    float: left;
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: #1DB954; /* Spotify's green color */
+}
+
+.navigation-bar ul, .dashboardnavigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation-bar li, .dashboardnavigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.navigation-bar li a, .dashboardnavigation-bar li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    line-height: 110px;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
+
+.navigation-bar li a:hover, .dashboardnavigation-bar li a:hover {
+    color: #1DB954;
+}
+
+.signinButton {
+    float: right;
+    background-color: #1DB954;
+    border-color: transparent;
+    height: 40px;
+    width: 130px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: -75px;
+    cursor: pointer;
+}
+
+.signinButton:hover {
+    background-color: #1A8746; /* Darker shade of Spotify green */
+}
+
+/* Additional styles follow the same pattern of color and font adjustments */
+
+/* General Text Elements */
+.text, #openingStatement, #welcomeSpan, #subStatement, #whyUsdescrip, #info, #subinfo, #areaResults, #numberResults {
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+/* Links and Buttons */
+a, .listItem, .listItem:hover, .card a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+/* Input Fields and Form Elements */
+input, select, .search-field {
+    background-color: #282828;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* Containers and Cards */
+.container, .card {
+    background-color: #282828;
+}
+
+/* Animations and Hover Effects */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes sIfadeOut {
+    0% { background-color: #1DB954; }
+    100% { background-color: #1A8746; }
+}
+
+/* Media Queries and Responsive Design elements as required */
